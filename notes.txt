@@ -1,0 +1,4 @@
+make sure to set read permissions for images!
+chmod o+r images/*.jpg
+will set all read permissions for all jpg files in images dir. 
+important to do or else pics wont load on website!
