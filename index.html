@@ -26,10 +26,11 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">Interests</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#about" class="active">About Me</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Side Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -50,7 +51,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<div class="image main" data-position="center">
 									<img src="images/ut1.jpg" alt="" />
 								</div>
@@ -66,17 +67,35 @@
 										Networks. I plan to take many of these classes starting Spring 2022.
 										<br><br> I spent this past summer as an Explorer Intern on the IC3 Media Intelligence team, working
 										on new features for Microsoft Teams. I am proud to say I will be returning to Microsoft next summer!
+										Our prototype this summer served as a proof of concept for the Microsoft Metaverse in Teams, as shown in <a href="https://www.theverge.com/2021/11/2/22758974/microsoft-teams-metaverse-mesh-3d-avatars-meetings-features" target="_blank" rel="noopener noreferrer">this article.</a>
 										<br><br> My current relevant coursework includes: <br>
 										CS312 Introduction to Programming, CS314 Data Structures & Algorithms, CS429 Computer Architecture
-										, CS439 Operating Systems, CS378 Symbolic Programming, CS331 Algorithms & Complexity, CS373 Software Engineering
+										, CS439 Operating Systems, CS378 Symbolic Programming, CS331 Algorithms & Complexity, CS373 Software Engineering, CS103F Ethical Foundations of CS
 										<br><br> <i>P.S My favorite piano song is <a href="https://www.youtube.com/watch?v=o1pmDMkaDmw&ab_channel=RuiBinChen-Topic" target="_blank" rel="noopener noreferrer">Liebesleid, by Kreisler</a></i>
-										<br><br> <b> Email: francis@cs.utexas.edu <br> Phone: 832-407-8740 </b>	
+											
 									</p>
 								</div>
 							</section>
-
+						<!-- Work Section -->
+						<section id="work">
+							<div class="container">
+								<h3 style="color:#bf5700">Work</h3>
+								<p>This summer, my wonderful intern teammates and I worked on an application for Microsoft Teams.</p>
+								<div class="features">
+						<article>
+							<a href="#" class="image"><img src="images/teamsmesh.jpg" alt="oopsie3" /></a>
+							<div class="inner">
+								<h4>Avatars</h4>
+								<p>We were tasked with implementing 
+									Voice Driven Avatars using the Xbox Avatars V3 Framework. We used a lightweight neural 
+									network for voice synchronization developed by Microsoft Research Asia, @Xiao Li. 
+									Some technologies applied were Unity, C#, OpenCV-Python, and FFMPEG.
+								</p>
+							</div>
+						</article>
+					</section>
 						<!-- Two -->
-							<section id="two">
+							<section id="skills">
 								<div class="container">
 									<h3 style="color:#bf5700">Skills</h3>
 									<p></p>
@@ -92,10 +111,10 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="projects">
 								<div class="container">
 									<h3 style="color:#bf5700">Side Projects</h3>
-									<p>These are some things I've created on my own time for fun or to explore new technologies/strategies</p>
+									<p>These are some things I've created on my own time for fun or to explore new technologies.</p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/heatmap.jpg" alt="oops" /></a>
@@ -103,7 +122,7 @@
 												<h4>West Campus Crime Heatmap</h4>
 												<p>I wrote a Python program that parses public data from the Austin Police Department 
 													and generates a heatmap of crime activity based on latitude and longitude. This then maps 
-													the data points to a GUI to be plotted on top of a map image, which has to option to be saved as 
+													the data points to a GUI to be plotted on top of a map image, which has the option to be saved as 
 													an image file upon terminating the program.
 												</p>
 											</div>
@@ -128,15 +147,18 @@
 													to WinRAR, however it is not nearly as efficient since it is a barebones and non-modern algorithm.</p>
 											</div>
 										</article>
+										
 									</div>
 								</div>
 							</section>
-
+						
 						<!-- Four -->
-							<section id="four">
+							<section id="contact">
 								<div class="container">
 									<h3 style="color:#bf5700">Contact Me</h3>
-									<p>I check my email daily. Feel free to send me any message or inquiry through here!</p>
+									<p>
+										<b> Email: francis@cs.utexas.edu <br> Phone: 832-407-8740 </b>
+									</p>
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -153,6 +175,8 @@
 									</form>
 								</div>
 							</section>
+							
+
 
 						<!-- Five -->
 						<!--
